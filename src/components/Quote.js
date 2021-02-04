@@ -1,11 +1,11 @@
 import React from "react";
 
-function Quote ({ simpsonQuote }) {
+function Quote ({ simpsonsQuote }) {
     return (
         <div>
-            <p>{simpsonQuote.quote}</p>
-            <p><strong>{simpsonQuote.character}</strong></p>
-            <img src={simpsonQuote.image} alt={simpsonQuote.name} /> 
+            <p>{simpsonsQuote.quote}</p>
+            <p><strong>{simpsonsQuote.character}</strong></p>
+            <img src={simpsonsQuote.image} alt={simpsonsQuote.name} /> 
         </div>
     )
     
